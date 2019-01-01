@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Website Cost Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+    <section>
+      <form>
+        <div class="form-group">
+          <label for="page">Page Title:</label>
+          <input type="text" class="form-control" id="pagetitle">
+        </div>
+        <div class="form-group">
+          <label for="pagetype">Page Type:</label>
+          <select class="form-control" id="pagetype">
+            <option value="form">Form page to take user input</option>
+            <option value="table">Report page to show a tabular report</option>
+            <option value="graph">Report page to show a graphical report</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Page to Cart</button>
+      </form>
+    </section>
+  </body>
+</html>
